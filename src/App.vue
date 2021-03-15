@@ -208,6 +208,12 @@
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   }
 
+  html {
+    position: fixed;
+    height: 100%;
+    overflow: hidden;
+  }
+
   :root {
     color-scheme: dark;
   }
@@ -215,6 +221,12 @@
   body {
     background: #000;
     color: #ccc;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   h1 {
