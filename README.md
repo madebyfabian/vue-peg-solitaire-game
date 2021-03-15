@@ -1,4 +1,5 @@
 # vue-peg-solitaire-game
+A simple Peg Solitaire Game written in JS/vue.
 
 ## Project setup
 ```
